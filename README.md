@@ -1,75 +1,75 @@
-QA Process Framework – DemoOps (Oh-Dish)
-Overview
+**QA Process Framework – DemoOps (Oh-Dish)**
+**Overview**
 
 This repository demonstrates a complete end-to-end Quality Assurance lifecycle implementation for a simulated SaaS backoffice platform covering:
 
-User & Role Management
+- User & Role Management
 
-POS (Point of Sale)
+- POS (Point of Sale)
 
-Orders (Order Lifecycle Management)
+- Orders (Order Lifecycle Management)
 
 The objective of this project was to model a structured QA process aligned with enterprise SDLC practices, including requirement validation, system design review, risk assessment, and full test execution governance.
 
 This portfolio reflects how I approach QA in a structured, documentation-driven, and risk-aware manner.
 
-Project Scope
+**Project Scope**
 
 The system under validation includes:
 
 1. Users & Roles
 
-User creation, update, deletion
+- User creation, update, deletion
 
-Role-based access control (RBAC)
+- Role-based access control (RBAC)
 
-Permission matrix validation
+- Permission matrix validation
 
-Status lifecycle and access restrictions
+- Status lifecycle and access restrictions
 
 2. POS Module
 
-Order creation workflow
+- Order creation workflow
 
-Item categorization (Dine-in, Takeout, Delivery, Pickup)
+- Item categorization (Dine-in, Takeout, Delivery, Pickup)
 
-Discount & payment validation
+- Discount & payment validation
 
-Kitchen processing integration
+- Kitchen processing integration
 
-Payment state management
+- Payment state management
 
 3. Orders Module
 
-Order lifecycle states (New → Processing → Ready → Completed → Scheduled)
+- Order lifecycle states (New → Processing → Ready → Completed → Scheduled)
 
-Status transition validation
+- Status transition validation
 
-Filtering, sorting, search
+- Filtering, sorting, search
 
-Refund and update logic
+- Refund and update logic
 
-QA Methodologies Applied
+- QA Methodologies Applied
 
 This project applies multiple structured testing techniques:
 
-Boundary Value Analysis
+- Boundary Value Analysis
 
-Decision Table Testing
+- Decision Table Testing
 
-State Transition Testing
+- State Transition Testing
 
-Positive & Negative Functional Testing
+- Positive & Negative Functional Testing
 
-Integration Testing (Users ↔ POS ↔ Orders)
+- Integration Testing (Users ↔ POS ↔ Orders)
 
-Role-Based Access Validation
+- Role-Based Access Validation
 
-Regression Planning
+- Regression Planning
 
-Risk-Based Test Strategy
+- Risk-Based Test Strategy
 
-Execution Time Estimation Modeling
+- Execution Time Estimation Modeling
 
 The goal was to simulate real-world QA governance practices used in enterprise environments.
 
@@ -77,81 +77,81 @@ Repository Artifacts
 
 This repository includes:
 
-BRD – Business Requirements Document
+- BRD – Business Requirements Document
 
-FRD – Full System Functional Requirements
+- FRD – Full System Functional Requirements
 
-SRS – System Requirements Specification
+- SRS – System Requirements Specification
 
-IDD – Internal Design Document
+- IDD – Internal Design Document
 
-Test Plan – Strategy, scope, risk, estimation, entry/exit criteria
+- Test Plan – Strategy, scope, risk, estimation, entry/exit criteria
 
-Test Cases (158) – Structured functional & workflow coverage
+- Test Cases (158) – Structured functional & workflow coverage
 
-Defect Management – Logged defects with severity classification
+- Defect Management – Logged defects with severity classification
 
-Boundary & State Transition Modeling – Workflow validation matrices
+- Boundary & State Transition Modeling – Workflow validation matrices
 
-Generic SaaS Mockups – Simulated UI representations
+- Generic SaaS Mockups – Simulated UI representations
 
-Test Coverage Summary
+- Test Coverage Summary
 
 ~158 documented test cases
 
-Multi-build execution modeling
+- Multi-build execution modeling
 
-Defect lifecycle simulation
+- Defect lifecycle simulation
 
-95%+ pass ratio target
+- 95%+ pass ratio target
 
-Structured entry & exit criteria
+- Structured entry & exit criteria
 
-Risk identification and mitigation mapping
+- Risk identification and mitigation mapping
 
 Tools Referenced
 
-TestLink (Test Case Management simulation)
+- TestLink (Test Case Management simulation)
 
-Git-based version control
+- Git-based version control
 
-Issue Tracking (Jira / GitLab equivalent)
+- Issue Tracking (Jira / GitLab equivalent)
 
-PDF documentation artifacts
+- PDF documentation artifacts
 
-Execution Estimation Model
+- Execution Estimation Model
 
 The test plan includes:
 
-Test case authoring estimation
+- Test case authoring estimation
 
-Execution effort modeling across builds
+- Execution effort modeling across builds
 
-Defect reporting & verification effort
+- Defect reporting & verification effort
 
-Total QA effort calculation (hours & days)
+- Total QA effort calculation (hours & days)
 
 This reflects realistic workload planning for single-tester structured validation.
 
 Confidentiality Disclaimer
 
-All UI mockups and documentation artifacts in this repository are simulated representations created solely for portfolio demonstration purposes.
+- All UI mockups and documentation artifacts in this repository are simulated representations created solely for portfolio demonstration purposes.
 
-No proprietary systems, internal company documentation, real production data, or confidential materials are included.
+- No proprietary systems, internal company documentation, real production data, or confidential materials are included.
 
 Objective
 
 This repository demonstrates:
 
-Structured QA process ownership
+- Structured QA process ownership
 
-End-to-end SDLC understanding
+- End-to-end SDLC understanding
 
-Governance-oriented documentation discipline
+- Governance-oriented documentation discipline
 
-Risk-based test planning
+- Risk-based test planning
 
-Enterprise-level validation modeling
+- Enterprise-level validation modeling
 
 It reflects how I approach QA as a process, not just test execution.
 
