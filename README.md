@@ -13,6 +13,16 @@ The objective of this project was to model a structured QA process aligned with 
 
 This portfolio reflects how I approach QA in a structured, documentation-driven, and risk-aware manner.
 
+**Role & Engagement Context**
+
+**Role:** QA Intern / QA Trainee – Agile QA Governance Implementation
+**Team Structure: ** 3 Developers + 1 QA
+**Methodology:** Agile (6-Sprint PI Simulation)
+**Environment Model:** Dev → Staging → Production
+**CI/CD:** Manual regression + TestCafe automation roadmap
+**Database:** MySQL
+**Architecture:** Modular SaaS (Users, POS, Orders, Payments)
+
 **Project Scope**
 
 The system under validation includes:
@@ -73,7 +83,21 @@ This project applies multiple structured testing techniques:
 
 The goal was to simulate real-world QA governance practices used in enterprise environments.
 
-Repository Artifacts
+**Agile Implementation Highlights**
+
+- Structured 6-sprint Program Increment (PI)
+
+- Defined Sprint Execution & Defect Triage Protocols
+
+- Implemented Payment Integrity Control Framework
+
+- Established Release Readiness & Go/No-Go Model
+
+- Generated PI-Level Governance & Automation Health Reports
+
+- Achieved ≥95% critical flow validation target
+
+**Repository Artifacts**
 
 This repository includes:
 
@@ -95,7 +119,7 @@ This repository includes:
 
 - Generic SaaS Mockups – Simulated UI representations
 
-- Test Coverage Summary
+**- Test Coverage Summary**
 
 ~158 documented test cases
 
@@ -109,7 +133,7 @@ This repository includes:
 
 - Risk identification and mitigation mapping
 
-Tools Referenced
+**Tools Referenced**
 
 - TestLink (Test Case Management simulation)
 
@@ -121,7 +145,7 @@ Tools Referenced
 
 - Execution Estimation Model
 
-The test plan includes:
+**The test plan includes:**
 
 - Test case authoring estimation
 
@@ -133,13 +157,13 @@ The test plan includes:
 
 This reflects realistic workload planning for single-tester structured validation.
 
-Confidentiality Disclaimer
+**Confidentiality Disclaimer**
 
 - All UI mockups and documentation artifacts in this repository are simulated representations created solely for portfolio demonstration purposes.
 
 - No proprietary systems, internal company documentation, real production data, or confidential materials are included.
 
-Objective
+**Objective**
 
 This repository demonstrates:
 
@@ -155,7 +179,7 @@ This repository demonstrates:
 
 It reflects how I approach QA as a process, not just test execution.
 
-Author
+**Author**
 
 Sanyogita Herwathe
 Quality Assurance Professional
